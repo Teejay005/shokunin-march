@@ -1,0 +1,17 @@
+web:
+  build: .
+  working_dir: /usr/src/app/
+  environment:
+    PORT: 4567
+  ports:
+    - '4567:4567'
+shell:
+  build: .
+  command: bash
+  working_dir: /usr/src/app/
+  environment:
+    PORT: 4567
+  ports:
+    - '4567:4567'
+  volumes:
+    - '.:/usr/src/app/'
