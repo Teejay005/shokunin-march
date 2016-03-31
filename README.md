@@ -1,5 +1,9 @@
 ### API Contact testing
 
+## Clone the solution
+ - git clone https://github.com/Teejay005/shokunin-march.git --recursive
+  (note the recursive part is important)
+
 ## To run
  - run the test by this command: 'mocha' within the project directory
 
