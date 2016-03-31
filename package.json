@@ -6,6 +6,10 @@
     "mongoose": "~3.6.13",
     "body-parser": "~1.0.1"
   },
+  "engines": {
+        "node": "0.8.12",
+        "npm":  "1.1.49"
+  },
   "devDependencies": {
     "expect": "^1.16.0",
     "mocha": "^2.4.5",

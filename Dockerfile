@@ -1,1 +1,1 @@
-FROM teejay005/node
+FROM teejay005/shokuninapi_web

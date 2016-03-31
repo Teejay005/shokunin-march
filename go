@@ -1,16 +1,14 @@
 #! /bin/bash
 
-echo "npm install"
+echo 'Install the dependencies'
 
 npm install
 
-echo "run mocha unit test"
-
+echo 'Run the unit test'
 mocha
 
-cd coffee-api-challenge && bundle install
+cd coffee-api-challenge
 
-bundle exec rake "pacto:validate[http://192.168.99.100:4567,contracts]"
+bundle install
 
-
-
+bundle exec rake "pacto:validate[https://shokuni-api.herokuapp.com,contracts]"

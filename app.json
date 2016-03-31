@@ -1,5 +1,5 @@
 {
-  "name": "Shokuni Exercise",
+  "name": "shokunin-api",
   "description": "A node API server",
-  "image": "teejay005/node"
+  "image": "teejay005/shokuninapi_web"
 }
