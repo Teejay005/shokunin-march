@@ -1,0 +1,3 @@
+[submodule "coffee-api-challenge"]
+    path = coffee-api-challenge
+    url = https://github.com/software-shokunin/coffee-api-challenge.git
