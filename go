@@ -15,7 +15,7 @@ echo "replace the deafult with api url"
 
 cd contracts
 
-sed -i -e "s%http://localhost:4567%$1%g" *.json
+sed -i -e "s{http://localhost:4567}$1}g" *.json
 
 cd ..
 
