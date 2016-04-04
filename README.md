@@ -15,5 +15,6 @@
 
 ## It is assumed the user has the following installed:
    - node
+   - ruby
    - npm
    - ruby=2.2.3
